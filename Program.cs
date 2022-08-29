@@ -64,6 +64,8 @@ namespace Q3_Product
 
             Product1 r1 = list.Find(s => s.ProdId == id);
             Console.WriteLine($"Added successfully:{list.Add(r)}");
+            
+            Console.Readline();
         }
     }
 }
